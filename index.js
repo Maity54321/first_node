@@ -6,7 +6,7 @@ const PORT = process.env.PORT;
 
 
 const server = http.createServer((req, res) => {
-    fs.readFile('../HtML/start.html',(err, data)=>{
+    fs.readFile('./first.html',(err, data)=>{
         if(err){
             console.log(err);
         }
